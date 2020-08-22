@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(54, 151, 29);
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    padding-left: 30px;
+    color: rgba(111, 194, 56, 0.877);
+}
+
+#header-nav{
+    background-color: white;
+}
+
+li{
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-list{
+    background-color: rgba(59, 125, 212, 0.699);
+}
+
+/** End Header **/
+.col-xs-12{
+    margin: 20px 30px 20px 30px;
+    background-color: rgba(119, 122, 73, 0.959);
+    width: auto;
+}
+
+
+
+
+
+@media(min-width: 767px){
+    div.container{
+        width: auto;
+    }
+    #header-nav{
+        border-radius: 0px;
+    }
+}
